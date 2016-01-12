@@ -52,7 +52,7 @@ if __name__ == "__main__":
     counter=0
     matrix=[]
     word_list=list(wn.words())
-##    random.shuffle(word_list)
+    random.shuffle(word_list)
     for word in word_list:
         if(counter<25000):
             get_synsets(word,synsets,net_words)
